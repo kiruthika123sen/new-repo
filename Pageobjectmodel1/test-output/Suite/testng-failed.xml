@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps"/>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="tests.TC_001Login">
+        <methods>
+          <include name="Beforesuite"/>
+          <include name="beforeclass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.TC_001Login -->
+      <class name="tests.TC_001FindLead">
+        <methods>
+          <include name="FindBy"/>
+          <include name="beforeclass"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- tests.TC_001FindLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
