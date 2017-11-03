@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8358" started-at="2017-10-22T11:02:16Z" finished-at="2017-10-22T11:02:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8358" started-at="2017-10-22T11:02:16Z" finished-at="2017-10-22T11:02:25Z">
+      <class name="wait.Table">
+        <test-method status="PASS" signature="frame()[pri:0, instance:wait.Table@1417077]" name="frame" duration-ms="8340" started-at="2017-10-22T16:32:16Z" finished-at="2017-10-22T16:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame -->
+      </class> <!-- wait.Table -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
